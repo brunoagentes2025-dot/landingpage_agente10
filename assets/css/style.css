@@ -153,7 +153,7 @@ p {
   z-index: 5;
   -webkit-transition: all 0.4s ease-out 0s;
   transition: all 0.4s ease-out 0s;
-  background-color: #3698EE;
+  background-color: #581ccb;
 }
 
 @media (max-width: 767px) {
@@ -163,10 +163,11 @@ p {
     line-height: 45px;
     font-size: 14px;
   }
+	.main-btn{width: 100%}
 }
 
 .main-btn:hover {
-  background-color: rgba(54, 152, 238, 0.8);
+  background-color: #6536be;
   color: #fff;
   -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
