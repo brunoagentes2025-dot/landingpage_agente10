@@ -69,7 +69,6 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -94,7 +93,11 @@ h4 {
 }
 
 h5 {
-  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 20px !important;
+    color: #ffffff;
+    margin: 0px;
 }
 
 h6 {
@@ -108,7 +111,7 @@ ul, ol {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   color: #677284;
@@ -629,7 +632,8 @@ p {
 @media (max-width: 767px) {
   .navbar-nav .nav-item a {
     display: block;
-    padding: 4px 0;
+    padding: 17px 0;
+	  font-size: 20px; 
   }
 }
 
@@ -1580,11 +1584,13 @@ p {
 }
 
 .subscribe_form .main-btn {
-  position: absolute;
-  top: 5px;
-  right: 5px;
+ 
+ 
   line-height: 50px;
   height: 50px;
+	width: 100%;
+	font-size: 20px;
+    font-weight: 600;
 }
 
 .footer_social ul li {
@@ -1612,6 +1618,7 @@ p {
 
 .footer_copyright p {
   color: #fff;
+	font-size: 14px;
 }
 
 .footer_copyright p a {
